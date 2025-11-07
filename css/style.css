@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Utility Classes */
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* Start Navbar */
+nav {
+    width: 100%;
+    background-color: white;
+    box-shadow: -3px -3px 10px black;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo p {
+    padding: 15px 20px;
+    margin: 5px 0;
+    margin-left: 15px;
+}
+
+nav .logo p span {
+    font-weight: bold;
+}
+
+nav .nav-links {
+    float: right;
+}
+
+nav .nav-links ul {
+    list-style: none;
+}
+
+nav .nav-links ul li {
+    float: left;
+    padding: 15px 20px;
+    margin: 5px 0;
+}
+
+nav .nav-links ul li:hover,
+nav .logo p:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+nav .nav-links ul .last-link {
+    margin-right: 15px;
+}
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* End Navbar */
+
+/* Start Header */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 15px;
+}
+
+header .hero p span {
+    background-color: rgb(0,0,0,0.69);
+    padding: 8px 15px;
+}
+/* End Header */
+
+/* Start Projects Sesction */
+#projects {
+    margin-top: 50px;
+}
+
+#projects h2 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+#projects hr {
+    opacity: 0.3;
+    margin-bottom: 30px;
+}
+
+#projects .child {
+    width: calc(100% / 4 - 10px);
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#projects .child img{
+    width: 100%;
+}
+
+#projects .child span{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* End Projects Sesction */
+
+/* Start About Section */
+#about {
+    margin-top: 50px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+#about hr {
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+
+#about .myAbout {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#about .child {
+    width: calc(100% / 4 - 10px);
+    float: left;
+    margin-right: 10px;
+}
+
+#about .child img {
+    width: 100%;
+    filter: grayscale(75%);
+}
+
+#about .child h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+#about .child .title {
+    font-size: 18px;
+    color: #8e8e8e;
+    margin: 15px 0;
+}
+
+#about .child .subtitle {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#about .child button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+#about .child button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+/* End About Section */
+
+/* Start Contact Section */
+#contact {
+    margin-top: 50px;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+#contact hr {
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 0;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact form button {
+    border: none;
+    font-size: 15px;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+#contact form button:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+/* End Contact Section */
+
+/* Start Map Section */
+#map {
+    margin-top: 30px;
+}
+
+#map img {
+    width: 100%;
+}
+/* End Map Section */
+
+/* Start Footer */
+footer {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover {
+    color: green;
+}
+/* End Footer */
